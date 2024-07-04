@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import fb from "../assets/fb.png"
+import fb from "../assets/fb3.jpg"
 import github from "../assets/github.png"
-import link from "../assets/linkdin.png"
+import link from "../assets/link9.jpg"
 
 const Footer = () => {
     return (
@@ -14,9 +14,9 @@ const Footer = () => {
                     <Link to='/skills'> <a className="link link-hover font-bold">Skills</a></Link>
                 </nav>
                 <nav>
-                    <div className="grid grid-flow-col gap-4">
+                    <div className="grid grid-flow-col justify-center gap-4">
                         <a href="https://web.facebook.com/profile.php?id=100054261816897">
-                            <button className="btn-sm"><img src={fb} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>
+                            <button className="btn-sm"><img src={fb} className="h-[50px] w-[50px] hover:scale-125" alt="" /></button>
                         </a>
                         <a href="https://github.com/SanjidaOSD">
                             <button className="btn-sm"><img src={github} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>
