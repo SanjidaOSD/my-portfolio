@@ -4,7 +4,7 @@ import img from "../assets/mypic.jfif"
 const About = () => {
     return (
         <div>
-            <div className="hero bg-black lg:h-[700px]">
+            <div className="hero bg-black lg:h-[700px] rounded-lg">
                 <div className="hero-content flex-col lg:flex-row lg:gap-24">
                     <img
                         src={img}
@@ -19,7 +19,7 @@ const About = () => {
                         In my journey as a developer, I've collaborated with diverse teams, solving complex problems and pushing the boundaries of web development. I enjoy experimenting with new tools and techniques, staying ahead of the curve, and continuously learning to enhance my craft.
                         </p>
                         <Link to='/contact'>
-                            <button className="btn bg-white text-red-500 font-bold">Contact Me</button>s
+                            <button className="btn bg-white text-red-500 font-bold">Contact Me</button>
                         </Link>
                     </div>
                 </div>

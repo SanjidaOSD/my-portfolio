@@ -43,12 +43,12 @@ const Education = () => {
             </div>
             {/* sort courses */}
             <div className='text-center'>
-                <h1 className='text-2xl font-bold text-red-600'>Sort Courses:</h1>
+                <h1 className='text-2xl font-bold text-red-600 pt-10 pb-5'>Sort Courses:</h1>
                 <div className='mb-4'>
                     <p className='lg:text-xl font-bold'>Industrial Attachment In Professional Web Development In MERN Stack</p>
                     <p className='lg:font-bold'>TechLight IT Institute ( June 2024 – Present )</p>
                 </div>
-                <div className='mb-4'>
+                <div className='mb-12 mt-5'>
                     <p className='lg:text-xl font-bold'> Professional Web Development</p>
                     <p className='lg:font-bold'> Programming Hero ( Jan 2024 – Jun 2024 )</p>
                 </div>

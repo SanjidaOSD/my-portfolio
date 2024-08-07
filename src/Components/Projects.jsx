@@ -94,7 +94,7 @@ const Projects = () => {
                             <li>Daynamic add spot place option and a footer section.
                             </li>
                         <div className="card-actions justify-end">
-                            <a href="https://wondrous-smakager-414fdd.netlify.app/" className="link-hover font-bold flex">Live Link</a>
+                            <a href="https://myhomea9.netlify.app/" className="link-hover font-bold flex">Live Link</a>
                             <div className="">
                                 <a href="https://github.com/SanjidaOSD/MyHome-a9" className="link-hover font-bold">Client Code</a>
                                 <a href="https://github.com/SanjidaOSD/Tourist-management-server" className="ml-4 link-hover font-bold ">Server Code</a>

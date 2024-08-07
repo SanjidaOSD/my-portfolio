@@ -18,7 +18,7 @@ const Banner = () => {
                         <h1 className="font-bold text-3xl mt-4">a <span className="text-black-600">Frontend Developer|</span></h1>
                         <div className="mb-6 lg:mb-16">
                             <p className="py-6 font-semibold mb-4">
-                                Hi, I'm Sanjida, a front-end developer passionate about creating visually stunning and user-friendly web experiences. With expertise in HTML, CSS, JavaScript, and React. I specialize in building responsive and interactive websites. I enjoy turning complex problems into elegant solutions. Let's collaborate to bring your ideas to life! Reach out to me at-
+                                Hi, I&apos;m Sanjida, a front-end developer passionate about creating visually stunning and user-friendly web experiences. With expertise in HTML, CSS, JavaScript, and React. I specialize in building responsive and interactive websites. I enjoy turning complex problems into elegant solutions. Let's collaborate to bring your ideas to life! Reach out to me at-
                             </p>
                             <a href="https://web.facebook.com/profile.php?id=100054261816897">
                                 <button className="btn-sm"><img src={fb} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>

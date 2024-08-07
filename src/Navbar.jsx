@@ -1,15 +1,25 @@
 import { NavLink } from "react-router-dom";
+import { FaDownload } from "react-icons/fa6";
 
 const Navbar = () => {
     const links = <>
-        <li><NavLink to='/'className='link link-hover lg:text-white font-bold lg:text-xl'>Portfolio</NavLink></li>
-        <li><NavLink to='/about'className='link link-hover lg:text-white font-bold lg:text-xl'>About Me</NavLink></li>
-        <li><NavLink to='/education'className='link link-hover lg:text-white font-bold lg:text-xl'>Education</NavLink></li>
-        <li><NavLink to='/skills'className='link link-hover lg:text-white font-bold lg:text-xl'>Skills</NavLink></li>
-        <li><NavLink to='/contact'className='link link-hover lg:text-white font-bold lg:text-xl'>Contact Me</NavLink></li>
+        <li><NavLink to='/' className='link link-hover lg:text-white font-medium lg:text-lg'>Portfolio</NavLink></li>
+        <li><NavLink to='/about' className='link link-hover lg:text-white font-medium lg:text-lg'>About Me</NavLink></li>
+        <li><NavLink to='/education' className='link link-hover lg:text-white font-medium lg:text-lg'>Education</NavLink></li>
+        <li><NavLink to='/skills' className='link link-hover lg:text-white font-medium lg:text-lg'>Skills</NavLink></li>
+        <li><NavLink to='/contact' className='link link-hover lg:text-white font-medium lg:text-lg'>Contact Me</NavLink></li>
 
 
     </>
+
+    const handleDownload = () => {
+        const aTag = document.createElement('a')
+        aTag.href = "https://sanjidaportfolio.netlify.app/cv.pdf"
+        aTag.setAttribute('download', "Resume_Sanjida")
+        document.body.append(aTag);
+        aTag.click();
+        aTag.remove();
+    }
 
     return (
         <div>
@@ -37,16 +47,16 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-4xl font-bold text-white"><span className="text-red-600">Sanji</span>Da</a>
+                    <a className="btn btn-ghost lg:text-4xl md:text-3xl sm:text-3xl font-bold text-white"><span className="text-red-600">Sanji</span>Da</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-4">
-                       {links}
+                        {links}
                     </ul>
                 </div>
-                {/* <div className="navbar-end">
-                    <a className="btn">Button</a>
-                </div> */}
+                <div>
+                    <button className="px-8 py-2 bg-white text-gray-800 rounded-lg font-semibold flex gap-2 justify-center items-center" onClick={handleDownload}>Resume <FaDownload /> </button>
+                </div>
             </div>
         </div>
     );
