@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const handleDownload = () => {
         const aTag = document.createElement('a')
-        aTag.href = "https://sanjidaportfolio.netlify.app/cv.pdf"
+        aTag.href = "/resume.pdf"
         aTag.setAttribute('download', "Resume_Sanjida")
         document.body.append(aTag);
         aTag.click();
@@ -47,7 +47,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost lg:text-4xl md:text-3xl sm:text-3xl font-bold text-white"><span className="text-red-600">Sanji</span>Da</a>
+                    <a className="btn btn-ghost lg:text-4xl md:text-3xl sm:text-3xl font-bold text-white"><span className="text-white">Sanji</span>Da</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-4">
