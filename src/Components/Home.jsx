@@ -8,9 +8,11 @@ import Skills from "./Skills";
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
+          <div> 
+             <Banner></Banner>
+             </div>
 
-            <div className="lg:mt-24">
+            <div className="lg:mt-18">
                 <About></About>
             </div>
             <div className="lg:mt-24 mt-12">
