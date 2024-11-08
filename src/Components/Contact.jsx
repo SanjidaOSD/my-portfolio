@@ -39,12 +39,12 @@ const Contact = () => {
 
     return (
         <div>
-            <h1 className="text-4xl font-bold text-center mt-4">Contact<span className="text-red-500">Me</span></h1>
+            <h1 className="text-4xl font-bold text-center mt-4">Contact<span className="text-black">Me</span></h1>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row-reverse lg:gap-56 lg:mt-16">
                     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form onSubmit={handleSubmit} className="card-body">
-                            <div className="form-control">
+                            <div className="form-control bg-green-100">
 
                                 <input type="name" name='name' placeholder="Your Name" className="input input-bordered" required />
                             </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                                 placeholder="Your Message"
                                 className="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
                             <div className="form-control mt-6">
-                                <button type="submit" className="btn bg-red-500 text-white font-bold">Send</button>
+                                <button type="submit" className="btn bg-green-100 font-bold text-black hover:bg-green-100">Send</button>
                             </div>
                         </form>
                     </div>
@@ -72,7 +72,7 @@ const Contact = () => {
                             <button className="btn-sm"><img src={fb} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>
                         </a>
                         <a href="https://github.com/SanjidaOSD">
-                            <button className="btn-sm"><img src={github} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>
+                            <button className="btn-sm"><img src={github} className="h-[40px] w-[40px] hover:scale-125 text-black" alt="" /></button>
                         </a>
                         <button className="btn-sm"><img src={link} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>
                     </div>

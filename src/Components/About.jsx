@@ -6,6 +6,8 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { IoLocationOutline, IoMailOutline } from "react-icons/io5";
 import { MdOutlineWorkOutline } from "react-icons/md";
 
+
+
 const About = () => {
     return (
         <div>
@@ -14,12 +16,12 @@ const About = () => {
                     {/* <img
                         src={img}
                         className="max-w-sm w-[200px] lg:w-full h-full hover: shadow-5xl" /> */}
-                    <div className="card card-compact bg-white w-96 shadow-xl">
+                    <div className="card card-compact bg-white w-auto shadow-xl">
                         <figure>
                             <img
                                 src={img}
                                 alt="sanjida's img"
-                                className=" h-44 rounded-full border-4" />
+                                className=" h-52 rounded-full border-4" />
                         </figure>
                         <div className="card-body">
                             <h2 className="card-title text-black text-center lg:ml-11">Sanjida!</h2>
@@ -27,6 +29,7 @@ const About = () => {
                             <p className="flex items-center gap-2 text-gray-500"><IoMailOutline></IoMailOutline>dev.sanjida1@gmail.com</p>
                             <p className="flex items-center gap-2 text-gray-500"><IoLocationOutline></IoLocationOutline>Dhaka, Bangladesh</p>
                             <p className="flex items-center gap-2 text-gray-500"><MdOutlineWorkOutline></MdOutlineWorkOutline>Full Time</p>
+
                             {/* <div className="flex gap-4">
                                 <div className="badge border-green-600 bg-green-500 text-black">Html</div>
                                 <div className="badge border-green-600 bg-green-500 text-black">css</div>
@@ -47,15 +50,27 @@ const About = () => {
                         </p>
 
                         <div className="flex gap-10 lg:gap-12">
-                            <p className="flex gap-2 items-center text-gray-500"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline> Work simple and cline design</p>
-                            <p className="flex gap-2 items-center text-gray-500"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline> Web Design Full stack</p>
+                            <p className="flex gap-2 items-center text-gray-500"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline> Work simple and cline design</p>
+                            <p className="flex gap-2 items-center text-gray-500"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline> Web Design Full stack</p>
                         </div>
                         <div className="flex gap-4">
-                            <p className="flex gap-2 items-center text-gray-500"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline>New idea and user friendly design</p>
-                            <p className="flex gap-2 items-center text-gray-500"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline> Unlimited Revisions</p>
+                            <p className="flex gap-2 items-center text-gray-500"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline>New idea and user friendly design</p>
+                            <p className="flex gap-2 items-center text-gray-500" data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600"><IoMdCheckmarkCircleOutline className="text-green-600 font-bold h-6 w-6"></IoMdCheckmarkCircleOutline> Unlimited Revisions</p>
                         </div>
+
+
                         <Link to='/contact'>
-                            <button className="btn mt-10 px-8 py-2 bg-gradient-to-r from-green-600 to-teal-500 text-gray-800 rounded-lg font-semibold flex gap-2 justify-center items-center border-green-600">Contact Me</button>
+                            <button className="btn mt-10 px-8 py-2 bg-gradient-to-r from-green-600 to-teal-500 text-gray-800 rounded-lg font-semibold flex gap-2 justify-center items-center border-green-600" data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600">Contact Me</button>
                         </Link>
                     </div>
                 </div>

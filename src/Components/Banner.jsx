@@ -44,24 +44,34 @@ const Banner = () => {
                                 <p className="py-4 font-semibold mb-4 mx-auto lg:mx-0 max-w-md md:max-w-full">
                                     I&apos;m a front-end developer passionate about creating visually stunning and user-friendly web experiences. With expertise in HTML, CSS, JavaScript, and React. I specialize in building responsive and interactive websites. I enjoy turning complex problems into elegant solutions. Let's collaborate to bring your ideas to life!
                                 </p>
-                                <p className="flex justify-center lg:justify-start items-center gap-1 mb-1">
+                                <p className="flex justify-center lg:justify-start items-center gap-1 mb-1"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600">
                                     <CiLocationOn className="h-5 w-5" />Agargaon, Dhaka
                                 </p>
-                                <p className="flex justify-center lg:justify-start items-center gap-1 mb-8">
+                                <p className="flex justify-center lg:justify-start items-center gap-1 mb-8"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600">
                                     <GoDotFill className="h-5 w-5 text-green-700" />Available
                                 </p>
                                 <div className="flex justify-center lg:justify-start gap-1">
                                     <a href="https://web.facebook.com/profile.php?id=100054261816897">
-                                        <button className="btn-sm">
+                                        <button className="btn-sm"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600">
                                             <CiFacebook className="h-8 w-8" />
                                         </button>
                                     </a>
                                     <a href="https://github.com/SanjidaOSD">
-                                        <button className="btn-sm">
+                                        <button className="btn-sm"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600">
                                             <PiGithubLogo className="h-8 w-8" />
                                         </button>
                                     </a>
-                                    <button className="btn-sm">
+                                    <button className="btn-sm"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600">
                                         <CiLinkedin className="h-8 w-8" />
                                     </button>
                                 </div>
