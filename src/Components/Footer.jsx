@@ -14,7 +14,8 @@ const Footer = () => {
                     <Link to='/skills'> <a className="link link-hover font-bold">Skills</a></Link>
                 </nav>
                 <nav>
-                    <div className="grid grid-flow-col justify-center gap-4">
+                    <h1>FrontEnd Web Developer</h1>
+                    {/* <div className="grid grid-flow-col justify-center gap-4">
                         <a href="https://web.facebook.com/profile.php?id=100054261816897">
                             <button className="btn-sm"><img src={fb} className="h-[50px] w-[50px] hover:scale-125" alt="" /></button>
                         </a>
@@ -22,7 +23,7 @@ const Footer = () => {
                             <button className="btn-sm"><img src={github} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>
                         </a>
                         <button className="btn-sm"><img src={link} className="h-[40px] w-[40px] hover:scale-125" alt="" /></button>
-                    </div>
+                    </div> */}
                 </nav>
                 <aside>
                     <p>Copyright © ${new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>

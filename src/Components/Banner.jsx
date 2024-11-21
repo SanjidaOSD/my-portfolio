@@ -55,25 +55,32 @@ const Banner = () => {
                                     <GoDotFill className="h-5 w-5 text-green-700" />Available
                                 </p>
                                 <div className="flex justify-center lg:justify-start gap-1">
-                                    <a href="https://web.facebook.com/profile.php?id=100054261816897">
+                                    <a href="https://web.facebook.com/profile.php?id=100054261816897" target="_blank">
                                         <button className="btn-sm"data-aos="fade-up"
                                 data-aos-easing="linear"
                                 data-aos-duration="1600">
                                             <CiFacebook className="h-8 w-8" />
                                         </button>
                                     </a>
-                                    <a href="https://github.com/SanjidaOSD">
+                                    <a href="https://github.com/SanjidaOSD" target="_blank">
                                         <button className="btn-sm"data-aos="fade-up"
                                 data-aos-easing="linear"
                                 data-aos-duration="1600">
                                             <PiGithubLogo className="h-8 w-8" />
                                         </button>
                                     </a>
-                                    <button className="btn-sm"data-aos="fade-up"
+                                    <a href="https://www.linkedin.com/in/sanjidaema/" target="_blank">
+                                        <button className="btn-sm"data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-duration="1600">
+                                              <CiLinkedin className="h-8 w-8" />
+                                        </button>
+                                    </a>
+                                    {/* <button className="btn-sm"data-aos="fade-up"
                                 data-aos-easing="linear"
                                 data-aos-duration="1600">
                                         <CiLinkedin className="h-8 w-8" />
-                                    </button>
+                                    </button> */}
                                 </div>
                             </div>
                         </div>
