@@ -44,7 +44,7 @@ const Contact = () => {
 
     return (
         <div>
-            <h1 className="text-4xl font-bold text-center mt-4 text-black">Contact Me</h1>
+            <h1 className="text-4xl font-bold text-center mt-4 text-black">Contact <span className="text-blue-500">Me</span></h1>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row-reverse lg:gap-56 lg:mt-16">
                     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">

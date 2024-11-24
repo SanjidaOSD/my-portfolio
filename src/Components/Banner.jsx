@@ -24,14 +24,17 @@ const Banner = () => {
                        </div>
                         <div className="text-black">
                             
-                            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
+                            <h1 className="flex items-center text-3xl md:text-4xl lg:text-6xl font-bold">
                                 Hi, I'm <span>Sanjida</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPPexOF2y_I935xBh8IaqHTbcxh8CZAos6Q&s"
+                                className="h-14 w-14"
+                                alt="" />
                             </h1>
                             
                             <h1 className="font-bold text-2xl md:text-3xl mt-6">
                                 a <span>Frontend
                                     <Typewriter
-                                        words={[' Developer']}
+                                        words={[' Web  Developer']}
                                         loop={0}
                                         cursor
                                         cursorStyle='|'
