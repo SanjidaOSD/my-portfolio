@@ -152,7 +152,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="py-16 px-4 lg:px-16 bg-gray-100">
+        <section className="py-16 px-4 lg:px-16 bg-green-100">
             <h1 className="text-3xl md:text-5xl font-bold text-center mb-10 text-black">
                 Here are my <span className="text-blue-500">Projects</span>
             </h1>
@@ -160,7 +160,7 @@ const Projects = () => {
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="card bg-white shadow-lg rounded-lg overflow-hidden  border-double border-4 border-green-600 hover:shadow-xl transition-all"
+                        className="card bg-green-100 shadow-lg rounded-lg overflow-hidden  border-double border-4 border-blue-500 hover:shadow-xl transition-all"
                     >
                         <figure className="overflow-hidden">
                             <img

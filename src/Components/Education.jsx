@@ -71,7 +71,7 @@ import { FcGraduationCap } from 'react-icons/fc';
 
 const Education = () => {
     return (
-        <div className="p-6 bg-gray-50">
+        <div className="p-6 bg-blue-50">
             {/* Title */}
             <h1 className="text-4xl font-bold text-center mb-12 text-black">
                 My <span className="text-blue-500">Education</span>
@@ -80,7 +80,7 @@ const Education = () => {
             {/* Education Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Diploma Card */}
-                <div className="bg-white border border-gray-300 rounded-lg shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
+                <div className="bg-blue-100 border border-gray-300 rounded-lg shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                     <div className="text-center">
                         <FcGraduationCap className="h-16 w-16 mx-auto mb-4" />
                         <h2 className="text-xl font-semibold text-gray-800">
@@ -91,7 +91,7 @@ const Education = () => {
                 </div>
 
                 {/* SSC Card */}
-                <div className="bg-white border border-gray-300 rounded-lg shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
+                <div className="bg-blue-100 border border-gray-300 rounded-lg shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                     <div className="text-center">
                         <FcGraduationCap className="h-16 w-16 mx-auto mb-4" />
                         <h2 className="text-xl font-semibold text-gray-800">
@@ -105,14 +105,14 @@ const Education = () => {
             {/* Short Courses Section */}
             <div className="mt-16">
                 <h2 className="text-xl font-bold text-center mb-8 text-black">Short Courses</h2>
-                <div className="max-w-2xl mx-auto bg-white border border-gray-300 rounded-lg shadow-lg p-6">
+                <div className="max-w-2xl mx-auto bg-blue-100 border border-gray-300 rounded-lg shadow-lg p-6">
                     <div className="space-y-8">
                         {/* MERN Stack Course */}
                         <div className="text-left">
                             <p className="text-lg font-bold text-gray-800">
                                 Industrial Attachment in MERN Stack Web Development
                             </p>
-                            <p className="text-gray-600 mt-1">TechLight IT Institute (June 2024 – Present)</p>
+                            <p className="text-gray-600 mt-1">TechLight IT Institute (June 2024 – August)</p>
                         </div>
 
                         {/* Professional Web Development Course */}

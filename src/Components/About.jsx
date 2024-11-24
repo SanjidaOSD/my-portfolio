@@ -10,7 +10,7 @@ import { MdOutlineWorkOutline } from "react-icons/md";
 
 const About = () => {
     return (
-        <div>
+        <div className="bg-gradient-to-r from-blue-100 via-white to-blue-200">
             <div className="hero lg:h-[700px] rounded-lg">
                 <div className="hero-content flex-col lg:flex-row lg:gap-24">
                     {/* <img
@@ -21,7 +21,7 @@ const About = () => {
                             <img
                                 src={img}
                                 alt="sanjida's img"
-                                className=" h-52 rounded-full border-4" />
+                                className=" h-52 rounded-full border-4 border-blue-400" />
                         </figure>
                         <div className="card-body">
                             <h2 className="card-title text-black text-center lg:ml-11">Sanjida!</h2>
@@ -40,7 +40,7 @@ const About = () => {
                         </div>
                     </div>
                     <div>
-                        <h1 className="text-lg flex items-center gap-2 text-black"> <LuCircleDot className="text-green-600"></LuCircleDot>About Me-</h1>
+                        <h1 className="text-lg flex items-center gap-2 text-blue-500"> <LuCircleDot className="text-green-600"></LuCircleDot>About <span className="text-blue-500">Me-</span></h1>
                         <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-black mt-2">I Can Design Anything You Want</h1>
                         <p className="py-2 text-gray-600 ">
                             Hey there! I'm a front-end developer who loves turning imaginative ideas into interactive realities. With a background in diploma in computer Science and Technology. I've honed my skills in HTML, CSS, JavaScript and React to create stunning, responsive websites.
